@@ -1,4 +1,4 @@
-import React from 'tiny-react'
+import React from 'tinys-react'
 
 const stories = [
   { name: 'Didact introduction', url: 'http://bit.ly/2pX7HNn' },

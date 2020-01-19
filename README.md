@@ -3,7 +3,7 @@
 ## Example
 
 ```javascript
-import React from 'tiny-react'
+import React from 'tinys-react'
 
 class App extends React.Component {
   render() {

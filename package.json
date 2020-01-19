@@ -1,15 +1,23 @@
 {
-  "name": "tiny-react",
+  "name": "tinys-react",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "scripts": {
     "build": "rollup -c",
-    "build:watch": "rollup -c -w"
+    "build:watch": "rollup -c -w",
+    "release": "npm publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "tiny-react"
+  ],
+  "author": "WUSO01",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WUSO01/tiny-react"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.7",
