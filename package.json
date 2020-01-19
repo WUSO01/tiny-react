@@ -1,0 +1,22 @@
+{
+  "name": "tiny-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "rollup": "^1.28.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^5.1.3"
+  }
+}
