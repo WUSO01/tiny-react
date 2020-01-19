@@ -2,6 +2,8 @@
 
 ## Example
 
+> yarn add tinys-react
+
 ```javascript
 import React from 'tinys-react'
 
